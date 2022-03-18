@@ -34,13 +34,13 @@ public class NewAccountPageSteps extends TestBase{
 	@When("^User enters the \"([^\"]*)\"$")
 	public void user_enters_the(String loginData) throws Throwable {
 		switch(loginData) {
-		case"username":
-			loginPage.insertUserName("demo@techfios.com");
+		case"demo@techfios.com":
+			loginPage.insertUserName(loginData);
 			Thread.sleep(3000);
 			
 			break;
-		case"password":
-			loginPage.insertPasword("abc123");
+		case"abc123":
+			loginPage.insertPasword(loginData);
 			Thread.sleep(3000);
 			break;
 			default:
@@ -109,28 +109,28 @@ public class NewAccountPageSteps extends TestBase{
 	@Then("^User enters \"([^\"]*)\" in accounts page$")
 	public void user_enters_in_accounts_page(String insertedData) throws Throwable {
 		switch(insertedData) {
-		case"accountTitle":
-			bankCashPage.insertAccountTitle("Tech_Mak"+generateRandomNumber(999));
+		case"Tech_Mak":
+			bankCashPage.insertAccountTitle(insertedData+generateRandomNumber(999));
 			Thread.sleep(3000);
 			break;
-		case"description":
-			bankCashPage.insertDescription("savings");
+		case"saving":
+			bankCashPage.insertDescription(insertedData);
 			Thread.sleep(3000);
 			break;
-		case"initialBalance":
-			bankCashPage.insertBalance("10000");
+		case"1000":
+			bankCashPage.insertBalance(insertedData);
 			Thread.sleep(3000);
 			break;
-		case"accountNumber":
-			bankCashPage.insertAccountNumber("4000"+generateRandomNumber(99999));
+		case"1001":
+			bankCashPage.insertAccountNumber(insertedData+generateRandomNumber(99999));
 			Thread.sleep(3000);
 			break;
-		case"contactPerson":
-			bankCashPage.insertContactPerson("MR Mak");
+		case"Mak":
+			bankCashPage.insertContactPerson(insertedData);
 			Thread.sleep(3000);
 			break;
-		case"Phone":
-			bankCashPage.insertContactPhone("402678"+generateRandomNumber(9999));
+		case"8886705678":
+			bankCashPage.insertContactPhone(insertedData+generateRandomNumber(9999));
 			Thread.sleep(3000);
 			break;
 		

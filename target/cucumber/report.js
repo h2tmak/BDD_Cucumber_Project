@@ -27,12 +27,12 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User enters the \"username\"",
+  "name": "User enters the \"\u003cusername\u003e\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "User enters the \"password\"",
+  "name": "User enters the \"\u003cpassword\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -62,32 +62,32 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User enters \"accountTitle\" in accounts page",
+  "name": "User enters \"\u003caccountTitle\u003e\" in accounts page",
   "keyword": "And "
 });
 formatter.step({
   "line": 14,
-  "name": "User enters \"description\" in accounts page",
+  "name": "User enters \"\u003cdescription\u003e\" in accounts page",
   "keyword": "And "
 });
 formatter.step({
   "line": 15,
-  "name": "User enters \"initialBalance\" in accounts page",
+  "name": "User enters \"\u003cinitialBalance\u003e\" in accounts page",
   "keyword": "And "
 });
 formatter.step({
   "line": 16,
-  "name": "User enters \"accountNumber\" in accounts page",
+  "name": "User enters \"\u003caccountNumber\u003e\" in accounts page",
   "keyword": "And "
 });
 formatter.step({
   "line": 17,
-  "name": "User enters \"contactPerson\" in accounts page",
+  "name": "User enters \"\u003ccontactPerson\u003e\" in accounts page",
   "keyword": "And "
 });
 formatter.step({
   "line": 18,
-  "name": "User enters \"Phone\" in accounts page",
+  "name": "User enters \"\u003cPhone\u003e\" in accounts page",
   "keyword": "And "
 });
 formatter.step({
@@ -138,7 +138,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2051302600,
+  "duration": 4126034300,
   "status": "passed"
 });
 formatter.scenario({
@@ -162,12 +162,18 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "User enters the \"username\"",
+  "name": "User enters the \"demo@techfios.com\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "User enters the \"password\"",
+  "name": "User enters the \"abc123\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "When "
 });
 formatter.step({
@@ -197,32 +203,50 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User enters \"accountTitle\" in accounts page",
+  "name": "User enters \"Tech_Mak\" in accounts page",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 14,
-  "name": "User enters \"description\" in accounts page",
+  "name": "User enters \"saving\" in accounts page",
+  "matchedColumns": [
+    3
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 15,
-  "name": "User enters \"initialBalance\" in accounts page",
+  "name": "User enters \"1000\" in accounts page",
+  "matchedColumns": [
+    4
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 16,
-  "name": "User enters \"accountNumber\" in accounts page",
+  "name": "User enters \"1001\" in accounts page",
+  "matchedColumns": [
+    5
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 17,
-  "name": "User enters \"contactPerson\" in accounts page",
+  "name": "User enters \"Mak\" in accounts page",
+  "matchedColumns": [
+    6
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 18,
-  "name": "User enters \"Phone\" in accounts page",
+  "name": "User enters \"8886705678\" in accounts page",
+  "matchedColumns": [
+    7
+  ],
   "keyword": "And "
 });
 formatter.step({
@@ -239,33 +263,33 @@ formatter.match({
   "location": "NewAccountPageSteps.user_is_on_the_techfios_login_page()"
 });
 formatter.result({
-  "duration": 4019267099,
+  "duration": 4615734900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "username",
+      "val": "demo@techfios.com",
       "offset": 17
     }
   ],
   "location": "NewAccountPageSteps.user_enters_the(String)"
 });
 formatter.result({
-  "duration": 3100479699,
+  "duration": 3333566400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "password",
+      "val": "abc123",
       "offset": 17
     }
   ],
   "location": "NewAccountPageSteps.user_enters_the(String)"
 });
 formatter.result({
-  "duration": 3087917001,
+  "duration": 3095341300,
   "status": "passed"
 });
 formatter.match({
@@ -278,7 +302,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 4668798000,
+  "duration": 5498801400,
   "status": "passed"
 });
 formatter.match({
@@ -291,7 +315,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_should_land_on_page(String)"
 });
 formatter.result({
-  "duration": 3234474099,
+  "duration": 3490992200,
   "status": "passed"
 });
 formatter.match({
@@ -304,7 +328,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 3098647201,
+  "duration": 3228736700,
   "status": "passed"
 });
 formatter.match({
@@ -317,7 +341,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 632826800,
+  "duration": 1236667800,
   "status": "passed"
 });
 formatter.match({
@@ -330,85 +354,85 @@ formatter.match({
   "location": "NewAccountPageSteps.user_should_land_on_page(String)"
 });
 formatter.result({
-  "duration": 3163829301,
+  "duration": 3366640100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "accountTitle",
+      "val": "Tech_Mak",
       "offset": 13
     }
   ],
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3113373700,
+  "duration": 3200385700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "description",
+      "val": "saving",
       "offset": 13
     }
   ],
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3122454000,
+  "duration": 3273408100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "initialBalance",
+      "val": "1000",
       "offset": 13
     }
   ],
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3111070599,
+  "duration": 3211993900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "accountNumber",
+      "val": "1001",
       "offset": 13
     }
   ],
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3119427500,
+  "duration": 3252778800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "contactPerson",
+      "val": "Mak",
       "offset": 13
     }
   ],
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3113361501,
+  "duration": 3283839500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Phone",
+      "val": "8886705678",
       "offset": 13
     }
   ],
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3106468900,
+  "duration": 3223815600,
   "status": "passed"
 });
 formatter.match({
@@ -421,18 +445,18 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 4232015299,
+  "duration": 4617489700,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAccountPageSteps.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 3205544900,
+  "duration": 3392931600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 685045801,
+  "duration": 855522100,
   "status": "passed"
 });
 });
