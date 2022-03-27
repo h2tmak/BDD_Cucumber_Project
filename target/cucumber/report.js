@@ -138,7 +138,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4126034300,
+  "duration": 3943305800,
   "status": "passed"
 });
 formatter.scenario({
@@ -263,7 +263,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_is_on_the_techfios_login_page()"
 });
 formatter.result({
-  "duration": 4615734900,
+  "duration": 4452768400,
   "status": "passed"
 });
 formatter.match({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_the(String)"
 });
 formatter.result({
-  "duration": 3333566400,
+  "duration": 3137181600,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +289,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_the(String)"
 });
 formatter.result({
-  "duration": 3095341300,
+  "duration": 3138873800,
   "status": "passed"
 });
 formatter.match({
@@ -302,7 +302,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 5498801400,
+  "duration": 5352806100,
   "status": "passed"
 });
 formatter.match({
@@ -315,7 +315,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_should_land_on_page(String)"
 });
 formatter.result({
-  "duration": 3490992200,
+  "duration": 3449354300,
   "status": "passed"
 });
 formatter.match({
@@ -328,7 +328,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 3228736700,
+  "duration": 3182998500,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +341,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 1236667800,
+  "duration": 1116085700,
   "status": "passed"
 });
 formatter.match({
@@ -354,7 +354,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_should_land_on_page(String)"
 });
 formatter.result({
-  "duration": 3366640100,
+  "duration": 3380984600,
   "status": "passed"
 });
 formatter.match({
@@ -367,7 +367,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3200385700,
+  "duration": 3195309300,
   "status": "passed"
 });
 formatter.match({
@@ -380,7 +380,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3273408100,
+  "duration": 3314460600,
   "status": "passed"
 });
 formatter.match({
@@ -393,7 +393,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3211993900,
+  "duration": 3313707000,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +406,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3252778800,
+  "duration": 3288967400,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3283839500,
+  "duration": 3260284000,
   "status": "passed"
 });
 formatter.match({
@@ -432,7 +432,7 @@ formatter.match({
   "location": "NewAccountPageSteps.user_enters_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 3223815600,
+  "duration": 3318268900,
   "status": "passed"
 });
 formatter.match({
@@ -445,18 +445,18 @@ formatter.match({
   "location": "NewAccountPageSteps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 4617489700,
+  "duration": 5024379700,
   "status": "passed"
 });
 formatter.match({
   "location": "NewAccountPageSteps.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 3392931600,
+  "duration": 3412646900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 855522100,
+  "duration": 873699800,
   "status": "passed"
 });
 });
